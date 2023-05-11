@@ -22,7 +22,7 @@
 package RSA3072
 
 //import "fmt"
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 const RFS int = int(MODBYTES) * FFLEN
 

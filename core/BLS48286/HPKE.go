@@ -24,7 +24,7 @@
 package BLS48286
 
 //import "fmt"
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 func reverse(X []byte) {
 	lx := len(X)

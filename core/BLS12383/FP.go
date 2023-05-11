@@ -22,7 +22,7 @@
 
 package BLS12383
 
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 type FP struct {
 	x   *BIG

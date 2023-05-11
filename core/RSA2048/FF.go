@@ -21,7 +21,7 @@ package RSA2048
 
 //import "fmt"
 //import "os"
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 //const FFLEN int = @ML@
 

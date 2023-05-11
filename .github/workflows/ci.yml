@@ -3,11 +3,13 @@ on:
   push:
     branches:
       - master
+      - jclab-main
     tags:
       - v*
   pull_request:
     branches:
       - master
+      - jclab-main
   workflow_dispatch: {}
 jobs:
   test:

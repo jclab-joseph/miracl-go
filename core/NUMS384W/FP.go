@@ -22,7 +22,7 @@
 
 package NUMS384W
 
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 type FP struct {
 	x   *BIG

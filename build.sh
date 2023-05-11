@@ -14,8 +14,8 @@ echo "0" >> temp/go/build.txt
 cd temp/go || exit
 UPSTREAM_VERSION=$(git log --pretty=format:'%H' -n1)
 python3 config64.py < build.txt
-find . -type f -name '*.go' -exec sed -i '' "s|miracl/core|go.bryk.io/miracl/core|g" {} +
-find . -type f -name '*.go' -exec sed -i '' "s|https://github.com/go.bryk.io/miracl/core|https://github.com/miracl/core|g" {} +
+find . -type f -name '*.go' -exec sed -i '' "s|miracl/core|github.com/jclab-joseph/miracl-go/core|g" {} +
+find . -type f -name '*.go' -exec sed -i '' "s|https://github.com/github.com/jclab-joseph/miracl-go/core|https://github.com/miracl/core|g" {} +
 cp -Rv ./core ../../.
 
 ## Copy test files

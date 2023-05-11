@@ -23,7 +23,7 @@
 
 package BLS48286
 
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 //import "fmt"
 

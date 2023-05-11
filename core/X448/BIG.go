@@ -25,7 +25,7 @@ import (
 	"math/bits"
 	"strconv"
 
-	"go.bryk.io/miracl/core"
+	"github.com/jclab-joseph/miracl-go/core"
 )
 
 //import "fmt"

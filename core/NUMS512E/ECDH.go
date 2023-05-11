@@ -22,7 +22,7 @@
 package NUMS512E
 
 //import "fmt"
-import "go.bryk.io/miracl/core"
+import "github.com/jclab-joseph/miracl-go/core"
 
 const INVALID_PUBLIC_KEY int = -2
 const ERROR int = -3

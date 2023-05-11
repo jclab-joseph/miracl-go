@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"go.bryk.io/miracl/core"
+	"github.com/jclab-joseph/miracl-go/core"
 )
 
 func main() {
